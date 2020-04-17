@@ -60,14 +60,12 @@ class Layout extends Component {
   render() {
     return (
       <div className={classes.main}>
-        <div className={classes.container}>
-          <Cockpit
-            handleChange={e => this.handleChange(e)}
-            handleSubmit={e => this.addTodo(e)}
-            value={this.state.value}
-          />
-          <TodoList list={this.state.todoList} delete={this.deleteTodo} />
-        </div>
+        <Cockpit
+          handleChange={e => this.handleChange(e)}
+          handleSubmit={e => this.addTodo(e)}
+          value={this.state.value}
+        />
+        <TodoList list={this.state.todoList} delete={this.deleteTodo} />
       </div>
     );
   }

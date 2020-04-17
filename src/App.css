@@ -1,8 +1,6 @@
 .App {
+  background-color: inherit;
   text-align: center;
-  background-color: #481380;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  color: white;
+  min-height: 80vh;
 }

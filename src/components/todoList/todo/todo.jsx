@@ -4,8 +4,10 @@ import classes from './todo.module.css';
 function Todo(props) {
   const style = {
     textAlign: 'left',
-    color: '#000',
-    padding: '0.5rem 0.3rem'
+    color: '#fff',
+    fontSize: '14px',
+    padding: '0.5rem 0.3rem',
+    wordWrap: 'break-word'
   };
 
   return (
